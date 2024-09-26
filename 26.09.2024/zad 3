@@ -1,0 +1,14 @@
+#tlo {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+
+.tekst {
+    position: absolute;
+    top: 115px;
+    left: 115px;
+    z-index: 2;
+}
+Błąd był w złym pozycjonowaniu oraz brakiem średników 
