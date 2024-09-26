@@ -1,0 +1,51 @@
+strona HTLM
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szablon strony</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="baner">BANER</header>
+    <nav id="menu">MENU</nav>
+    <main id="tresc">TREŚĆ STRONY</main>
+    <footer id="stopka">STOPKA</footer>
+</body>
+</html>
+dodatek CSS
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#baner {
+    background-color: #cc9966;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#menu {
+    background-color: #3c2d32;
+    color: white;
+    width: 200px;
+    float: left;
+    height: 400px; /* Wysokość taka sama jak dla treści strony */
+}
+
+#tresc {
+    background-color: #fff3b3;
+    padding: 20px;
+    margin-left: 200px;
+    height: 400px;
+}
+
+#stopka {
+    background-color: #990033;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
